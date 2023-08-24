@@ -3,7 +3,8 @@
 
 ### Tutorial Resources
 ----------------------
-This directory contains resources that can be used in a Google CoLab framework to run the data extraction and model comparison scripts. 
+This directory contains resources that can be used in a Google CoLab framework to run the data extraction and model comparison scripts.
+A note on environment setup: The yml file within the AdvancedTutorials directory can be used to run the tutorials locally without the use of Google Colaboratory; otherwise, the notebooks will run with the base environment of Google Colaboratory and install any additional necessary packages within the notebooks.
 
 ### Development Materials
 -------------------------
