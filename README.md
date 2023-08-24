@@ -1,15 +1,23 @@
 # CPAD
 ------
-Scripts for extracting subsets of raw data, converting geotiffs to nc files, generating plots, and comparing climate model data and observational data to generate statistics on various models that relate to transport in the Arctic
 
-Results from Emma's previous work can be found here on casper: `/glade/campaign/cgd/ppc/eperkins/`
+### Tutorial Resources
+----------------------
+This directory contains resources that can be used in a Google CoLab framework to run the data extraction and model comparison scripts. 
+
+### Development Materials
+-------------------------
+This repository contains scripts for extracting subsets of raw data, converting geotiffs to nc files, generating plots, and comparing climate model data and observational data to generate statistics on various models that relate to transport in the Arctic
+
+Results from Emma's previous work can be found on casper: `/glade/campaign/cgd/ppc/eperkins/`
 
 
 ### Acknowledgements
 ---------------------
 - Emma Perkins created many of the original scripts
-- Alice DuVivier provided some initial scripts and supported some of Emma's work
+- Bradley Lockhart developed an efficient data extraction tool
 - David Bailey managed this project, provided general guidance and suggestions for regridding and relevant datasets
 - Teagan King optimized scripts with dask to improve usability and worked on regridding sea ice data
+- Alice DuVivier provided some initial scripts and supported some of Emma's work
 - Mike Levy, Katie Dagon, Colin Zarzycki assisted with xesmf regridding tools
 - NCAR staff who helped answer questions
